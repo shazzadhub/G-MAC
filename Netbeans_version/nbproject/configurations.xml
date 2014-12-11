@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Dis_handler.h</itemPath>
+      <itemPath>cvblob.h</itemPath>
+      <itemPath>red.h</itemPath>
+      <itemPath>skin_color.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Dis_handler.cpp</itemPath>
+      <itemPath>cvaux.cpp</itemPath>
+      <itemPath>cvblob.cpp</itemPath>
+      <itemPath>cvcolor.cpp</itemPath>
+      <itemPath>cvcontour.cpp</itemPath>
+      <itemPath>cvlabel.cpp</itemPath>
+      <itemPath>cvtrack.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>red.cpp</itemPath>
+      <itemPath>skin_color.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/usr/local/include</pElem>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/usr/local/include/opencv2</pElem>
+            <pElem>/usr/include</pElem>
+          </linkerAddLib>
+          <stripSymbols>true</stripSymbols>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs opencv`</linkerOptionItem>
+          </linkerLibItems>
+          <commandLine>-lX11</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="Dis_handler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Dis_handler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cvaux.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvblob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvblob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cvcolor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvcontour.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvlabel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvtrack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="red.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="red.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="skin_color.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="skin_color.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Dis_handler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Dis_handler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cvaux.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvblob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvblob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cvcolor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvcontour.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvlabel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cvtrack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="red.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="red.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="skin_color.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="skin_color.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

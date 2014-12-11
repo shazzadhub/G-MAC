@@ -117,3 +117,8 @@ Windows Version
 My fellow project team member developed the windows version of G_MAC. It compiles and handle the OS collaboration with windows.h file **which I added on the master. There are saveral more features, such as windows mouse manipulation. Off course the mouse property of windows is not similer to the one in Linux; there are more like gesture based image manipulation etc. You can grab a copy from [here ..] (https://www.dropbox.com/s/htmj7c6fjy8behb/FINAL_VERSION_GMAC.rar?dl=0) 
 
 His [Facebook contact ...] (https://www.facebook.com/niaz.munna.bd?ref=ts&fref=ts)
+
+
+Our project [presentation] (https://www.dropbox.com/s/wy554n2mz74yjun/G-Mac_Final_Dec_03.tar.7z?dl=0)  if anybody curious !
+
+For Windows OS you need the [windows.h] (https://www.dropbox.com/s/v1wlzux1ysfai8k/winusr.h?dl=0) file

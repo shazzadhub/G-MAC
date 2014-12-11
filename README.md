@@ -14,7 +14,7 @@ Drawing image with hands infront of the webcam in known image editors... gimp or
 
 Playing several games with hand gesture, like fruit ninja.
 
-I created the Generalized mouse nevigation system.. made a switch between normal and that 			generalized one ... that is 'i'
+I created the Generalized mouse nevigation system.. made a switch between normal and that generalized one ... that is 'i'
 
 
 Instructions for Netbeans
@@ -25,7 +25,7 @@ Additional Library Dir :
 
 Libraries -> Add pkg-config Library, then select -> `pkg-config --libs opencv`
 
-Additional Option -> lX11, lXtst
+Additional Option -> `lX11`, `lXtst`
 
 
 Installing OpenCV
@@ -105,3 +105,15 @@ echo "OpenCV 2.4.6.1 ready to be used"
 ```
 
 
+My Project Report
+================
+
+My project report on "Creating a Gesture based Mouse-Application-Controller system" can be downloaded from my [dropbox] (https://www.dropbox.com/s/x49z93j1yqymkrk/G-Mac.pdf?dl=0)
+
+
+Windows Version
+===============
+
+My fellow project team member developed the windows version of G_MAC. It compiles and handle the OS collaboration with windows.h file **which I added on the master. There are saveral more features, such as windows mouse manipulation. Off course the mouse property of windows is not similer to the one in Linux; there are more like gesture based image manipulation etc. You can grab a copy from [here ..] (https://www.dropbox.com/s/htmj7c6fjy8behb/FINAL_VERSION_GMAC.rar?dl=0) 
+
+His [Facebook contact ...] (https://www.facebook.com/niaz.munna.bd?ref=ts&fref=ts)

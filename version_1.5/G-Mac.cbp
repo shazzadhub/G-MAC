@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="G-Mac" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/G-Mac" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/G-Mac" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Dis_handler.cpp" />
+		<Unit filename="Dis_handler.h" />
+		<Unit filename="cvaux.cpp" />
+		<Unit filename="cvblob.cpp" />
+		<Unit filename="cvblob.h" />
+		<Unit filename="cvcolor.cpp" />
+		<Unit filename="cvcontour.cpp" />
+		<Unit filename="cvlabel.cpp" />
+		<Unit filename="cvtrack.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="red.cpp" />
+		<Unit filename="red.h" />
+		<Unit filename="skin_color.cpp" />
+		<Unit filename="skin_color.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
